@@ -1,0 +1,508 @@
+{
+  "title": "Province/Map-Path to 17-Region Crosswalk for MO-IT117 Group 3",
+  "purpose": "Maps the 81 province-like SVG paths in philippines.svg to the 17 regional categories used by the project's PSA 2024 Internet Use datasets.",
+  "classification_basis": {
+    "structure": "17-region pre-Negros Island Region grouping used by the project dataset",
+    "psgc_reference": "PSA PSGC Fourth Quarter 2023 / pre-NIR regional composition",
+    "important_note": "The project dataset uses 17 regions. Negros Occidental is assigned to Region VI; Negros Oriental and Siquijor are assigned to Region VII."
+  },
+  "geometry_source": {
+    "file": "philippines.svg",
+    "svg_path_count": 81,
+    "geoViewBox": "116.927573 20.834769 126.606549 4.640292",
+    "note": "The SVG is a visualization geometry source, not an official PSA/NAMRIA boundary file. Some older province names/boundaries are retained because the output is dissolved to region level."
+  },
+  "records": [
+    {
+      "svg_id": "PH-ABR",
+      "svg_name": "Abra",
+      "region": "Cordillera Administrative Region",
+      "region_code": "CAR"
+    },
+    {
+      "svg_id": "PH-AGN",
+      "svg_name": "Agusan del Norte",
+      "region": "Region XIII - Caraga",
+      "region_code": "13"
+    },
+    {
+      "svg_id": "PH-AGS",
+      "svg_name": "Agusan del Sur",
+      "region": "Region XIII - Caraga",
+      "region_code": "13"
+    },
+    {
+      "svg_id": "PH-AKL",
+      "svg_name": "Aklan",
+      "region": "Region VI - Western Visayas",
+      "region_code": "06"
+    },
+    {
+      "svg_id": "PH-ALB",
+      "svg_name": "Albay",
+      "region": "Region V - Bicol Region",
+      "region_code": "05"
+    },
+    {
+      "svg_id": "PH-ANT",
+      "svg_name": "Antique",
+      "region": "Region VI - Western Visayas",
+      "region_code": "06"
+    },
+    {
+      "svg_id": "PH-APA",
+      "svg_name": "Apayao",
+      "region": "Cordillera Administrative Region",
+      "region_code": "CAR"
+    },
+    {
+      "svg_id": "PH-AUR",
+      "svg_name": "Aurora",
+      "region": "Region III - Central Luzon",
+      "region_code": "03"
+    },
+    {
+      "svg_id": "PH-BAS",
+      "svg_name": "Basilan",
+      "region": "Bangsamoro Autonomous Region in Muslim Mindanao",
+      "region_code": "BARMM",
+      "note": "Province-level SVG cannot separate Isabela City, which was administratively in Region IX while geographically located in Basilan; the whole Basilan province shape is assigned to BARMM as an approximation for regional visualization."
+    },
+    {
+      "svg_id": "PH-BAN",
+      "svg_name": "Bataan",
+      "region": "Region III - Central Luzon",
+      "region_code": "03"
+    },
+    {
+      "svg_id": "PH-BTN",
+      "svg_name": "Batanes",
+      "region": "Region II - Cagayan Valley",
+      "region_code": "02"
+    },
+    {
+      "svg_id": "PH-BTG",
+      "svg_name": "Batangas",
+      "region": "Region IV-A - CALABARZON",
+      "region_code": "04"
+    },
+    {
+      "svg_id": "PH-BEN",
+      "svg_name": "Benguet",
+      "region": "Cordillera Administrative Region",
+      "region_code": "CAR"
+    },
+    {
+      "svg_id": "PH-BIL",
+      "svg_name": "Biliran",
+      "region": "Region VIII - Eastern Visayas",
+      "region_code": "08"
+    },
+    {
+      "svg_id": "PH-BOH",
+      "svg_name": "Bohol",
+      "region": "Region VII - Central Visayas",
+      "region_code": "07"
+    },
+    {
+      "svg_id": "PH-BUK",
+      "svg_name": "Bukidnon",
+      "region": "Region X - Northern Mindanao",
+      "region_code": "10"
+    },
+    {
+      "svg_id": "PH-BUL",
+      "svg_name": "Bulacan",
+      "region": "Region III - Central Luzon",
+      "region_code": "03"
+    },
+    {
+      "svg_id": "PH-CAG",
+      "svg_name": "Cagayan",
+      "region": "Region II - Cagayan Valley",
+      "region_code": "02"
+    },
+    {
+      "svg_id": "PH-CAN",
+      "svg_name": "Camarines Norte",
+      "region": "Region V - Bicol Region",
+      "region_code": "05"
+    },
+    {
+      "svg_id": "PH-CAS",
+      "svg_name": "Camarines Sur",
+      "region": "Region V - Bicol Region",
+      "region_code": "05"
+    },
+    {
+      "svg_id": "PH-CAM",
+      "svg_name": "Camiguin",
+      "region": "Region X - Northern Mindanao",
+      "region_code": "10"
+    },
+    {
+      "svg_id": "PH-CAP",
+      "svg_name": "Capiz",
+      "region": "Region VI - Western Visayas",
+      "region_code": "06"
+    },
+    {
+      "svg_id": "PH-CAT",
+      "svg_name": "Catanduanes",
+      "region": "Region V - Bicol Region",
+      "region_code": "05"
+    },
+    {
+      "svg_id": "PH-CAV",
+      "svg_name": "Cavite",
+      "region": "Region IV-A - CALABARZON",
+      "region_code": "04"
+    },
+    {
+      "svg_id": "PH-CEB",
+      "svg_name": "Cebu",
+      "region": "Region VII - Central Visayas",
+      "region_code": "07"
+    },
+    {
+      "svg_id": "PH-COM",
+      "svg_name": "Compostela Valley",
+      "region": "Region XI - Davao Region",
+      "region_code": "11",
+      "note": "SVG uses the former name Compostela Valley; this corresponds to Davao de Oro and remains in Region XI."
+    },
+    {
+      "svg_id": "PH-NCO",
+      "svg_name": "Cotabato",
+      "region": "Region XII - SOCCSKSARGEN",
+      "region_code": "12"
+    },
+    {
+      "svg_id": "PH-DAO",
+      "svg_name": "Davao Oriental",
+      "region": "Region XI - Davao Region",
+      "region_code": "11"
+    },
+    {
+      "svg_id": "PH-DAV",
+      "svg_name": "Davao del Norte",
+      "region": "Region XI - Davao Region",
+      "region_code": "11"
+    },
+    {
+      "svg_id": "PH-DAS",
+      "svg_name": "Davao del Sur",
+      "region": "Region XI - Davao Region",
+      "region_code": "11",
+      "note": "SVG geometry predates the separate Davao Occidental province path; the supplied geometry is retained and dissolved into Region XI."
+    },
+    {
+      "svg_id": "PH-DIN",
+      "svg_name": "Dinagat Islands",
+      "region": "Region XIII - Caraga",
+      "region_code": "13"
+    },
+    {
+      "svg_id": "PH-EAS",
+      "svg_name": "Eastern Samar",
+      "region": "Region VIII - Eastern Visayas",
+      "region_code": "08"
+    },
+    {
+      "svg_id": "PH-GUI",
+      "svg_name": "Guimaras",
+      "region": "Region VI - Western Visayas",
+      "region_code": "06"
+    },
+    {
+      "svg_id": "PH-IFU",
+      "svg_name": "Ifugao",
+      "region": "Cordillera Administrative Region",
+      "region_code": "CAR"
+    },
+    {
+      "svg_id": "PH-ILN",
+      "svg_name": "Ilocos Norte",
+      "region": "Region I - Ilocos Region",
+      "region_code": "01"
+    },
+    {
+      "svg_id": "PH-ILS",
+      "svg_name": "Ilocos Sur",
+      "region": "Region I - Ilocos Region",
+      "region_code": "01"
+    },
+    {
+      "svg_id": "PH-ILI",
+      "svg_name": "Iloilo",
+      "region": "Region VI - Western Visayas",
+      "region_code": "06"
+    },
+    {
+      "svg_id": "PH-ISA",
+      "svg_name": "Isabela",
+      "region": "Region II - Cagayan Valley",
+      "region_code": "02"
+    },
+    {
+      "svg_id": "PH-KAL",
+      "svg_name": "Kalinga",
+      "region": "Cordillera Administrative Region",
+      "region_code": "CAR"
+    },
+    {
+      "svg_id": "PH-LUN",
+      "svg_name": "La Union",
+      "region": "Region I - Ilocos Region",
+      "region_code": "01"
+    },
+    {
+      "svg_id": "PH-LAG",
+      "svg_name": "Laguna",
+      "region": "Region IV-A - CALABARZON",
+      "region_code": "04"
+    },
+    {
+      "svg_id": "PH-LAN",
+      "svg_name": "Lanao del Norte",
+      "region": "Region X - Northern Mindanao",
+      "region_code": "10"
+    },
+    {
+      "svg_id": "PH-LAS",
+      "svg_name": "Lanao del Sur",
+      "region": "Bangsamoro Autonomous Region in Muslim Mindanao",
+      "region_code": "BARMM"
+    },
+    {
+      "svg_id": "PH-LEY",
+      "svg_name": "Leyte",
+      "region": "Region VIII - Eastern Visayas",
+      "region_code": "08"
+    },
+    {
+      "svg_id": "PH_MG",
+      "svg_name": "Maguindanao",
+      "region": "Bangsamoro Autonomous Region in Muslim Mindanao",
+      "region_code": "BARMM",
+      "note": "SVG uses a single historical Maguindanao geometry; current Maguindanao del Norte and Maguindanao del Sur are both within BARMM, so the supplied shape is suitable for regional dissolve."
+    },
+    {
+      "svg_id": "PH-MAD",
+      "svg_name": "Marinduque",
+      "region": "MIMAROPA Region",
+      "region_code": "17"
+    },
+    {
+      "svg_id": "PH-MAS",
+      "svg_name": "Masbate",
+      "region": "Region V - Bicol Region",
+      "region_code": "05"
+    },
+    {
+      "svg_id": "PH-MNL",
+      "svg_name": "Metropolitan Manila",
+      "region": "National Capital Region",
+      "region_code": "NCR",
+      "note": "SVG label is Metropolitan Manila; mapped to National Capital Region."
+    },
+    {
+      "svg_id": "PH-MDC",
+      "svg_name": "Mindoro Occidental",
+      "region": "MIMAROPA Region",
+      "region_code": "17"
+    },
+    {
+      "svg_id": "PH-MDR",
+      "svg_name": "Mindoro Oriental",
+      "region": "MIMAROPA Region",
+      "region_code": "17"
+    },
+    {
+      "svg_id": "PH-MSC",
+      "svg_name": "Misamis Occidental",
+      "region": "Region X - Northern Mindanao",
+      "region_code": "10"
+    },
+    {
+      "svg_id": "PH-MSR",
+      "svg_name": "Misamis Oriental",
+      "region": "Region X - Northern Mindanao",
+      "region_code": "10"
+    },
+    {
+      "svg_id": "PH-MOU",
+      "svg_name": "Mountain Province",
+      "region": "Cordillera Administrative Region",
+      "region_code": "CAR"
+    },
+    {
+      "svg_id": "PH-NEC",
+      "svg_name": "Negros Occidental",
+      "region": "Region VI - Western Visayas",
+      "region_code": "06"
+    },
+    {
+      "svg_id": "PH-NER",
+      "svg_name": "Negros Oriental",
+      "region": "Region VII - Central Visayas",
+      "region_code": "07"
+    },
+    {
+      "svg_id": "PH-NSA",
+      "svg_name": "Northern Samar",
+      "region": "Region VIII - Eastern Visayas",
+      "region_code": "08"
+    },
+    {
+      "svg_id": "PH-NUE",
+      "svg_name": "Nueva Ecija",
+      "region": "Region III - Central Luzon",
+      "region_code": "03"
+    },
+    {
+      "svg_id": "PH-NUV",
+      "svg_name": "Nueva Vizcaya",
+      "region": "Region II - Cagayan Valley",
+      "region_code": "02"
+    },
+    {
+      "svg_id": "PH-PLW",
+      "svg_name": "Palawan",
+      "region": "MIMAROPA Region",
+      "region_code": "17"
+    },
+    {
+      "svg_id": "PH-PAM",
+      "svg_name": "Pampanga",
+      "region": "Region III - Central Luzon",
+      "region_code": "03"
+    },
+    {
+      "svg_id": "PH-PAN",
+      "svg_name": "Pangasinan",
+      "region": "Region I - Ilocos Region",
+      "region_code": "01"
+    },
+    {
+      "svg_id": "PH-QUE",
+      "svg_name": "Quezon",
+      "region": "Region IV-A - CALABARZON",
+      "region_code": "04"
+    },
+    {
+      "svg_id": "PH-QUI",
+      "svg_name": "Quirino",
+      "region": "Region II - Cagayan Valley",
+      "region_code": "02"
+    },
+    {
+      "svg_id": "PH-RIZ",
+      "svg_name": "Rizal",
+      "region": "Region IV-A - CALABARZON",
+      "region_code": "04"
+    },
+    {
+      "svg_id": "PH-ROM",
+      "svg_name": "Romblon",
+      "region": "MIMAROPA Region",
+      "region_code": "17"
+    },
+    {
+      "svg_id": "PH-WSA",
+      "svg_name": "Samar",
+      "region": "Region VIII - Eastern Visayas",
+      "region_code": "08"
+    },
+    {
+      "svg_id": "PH-SAR",
+      "svg_name": "Sarangani",
+      "region": "Region XII - SOCCSKSARGEN",
+      "region_code": "12"
+    },
+    {
+      "svg_id": "PH-SIG",
+      "svg_name": "Siquijor",
+      "region": "Region VII - Central Visayas",
+      "region_code": "07"
+    },
+    {
+      "svg_id": "PH-SOR",
+      "svg_name": "Sorsogon",
+      "region": "Region V - Bicol Region",
+      "region_code": "05"
+    },
+    {
+      "svg_id": "PH-SCO",
+      "svg_name": "South Cotabato",
+      "region": "Region XII - SOCCSKSARGEN",
+      "region_code": "12"
+    },
+    {
+      "svg_id": "PH-SLE",
+      "svg_name": "Southern Leyte",
+      "region": "Region VIII - Eastern Visayas",
+      "region_code": "08"
+    },
+    {
+      "svg_id": "PH-SUK",
+      "svg_name": "Sultan Kudarat",
+      "region": "Region XII - SOCCSKSARGEN",
+      "region_code": "12"
+    },
+    {
+      "svg_id": "PH-SLU",
+      "svg_name": "Sulu",
+      "region": "Bangsamoro Autonomous Region in Muslim Mindanao",
+      "region_code": "BARMM"
+    },
+    {
+      "svg_id": "PH-SUN",
+      "svg_name": "Surigao del Norte",
+      "region": "Region XIII - Caraga",
+      "region_code": "13"
+    },
+    {
+      "svg_id": "PH-SUR",
+      "svg_name": "Surigao del Sur",
+      "region": "Region XIII - Caraga",
+      "region_code": "13"
+    },
+    {
+      "svg_id": "PH-TAR",
+      "svg_name": "Tarlac",
+      "region": "Region III - Central Luzon",
+      "region_code": "03"
+    },
+    {
+      "svg_id": "PH-TAW",
+      "svg_name": "Tawi-Tawi",
+      "region": "Bangsamoro Autonomous Region in Muslim Mindanao",
+      "region_code": "BARMM"
+    },
+    {
+      "svg_id": "PH-ZMB",
+      "svg_name": "Zambales",
+      "region": "Region III - Central Luzon",
+      "region_code": "03"
+    },
+    {
+      "svg_id": "PH-ZSI",
+      "svg_name": "Zamboanga Sibugay",
+      "region": "Region IX - Zamboanga Peninsula",
+      "region_code": "09"
+    },
+    {
+      "svg_id": "PH-ZAN",
+      "svg_name": "Zamboanga del Norte",
+      "region": "Region IX - Zamboanga Peninsula",
+      "region_code": "09"
+    },
+    {
+      "svg_id": "PH-ZAS",
+      "svg_name": "Zamboanga del Sur",
+      "region": "Region IX - Zamboanga Peninsula",
+      "region_code": "09"
+    }
+  ]
+}
